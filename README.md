@@ -50,7 +50,7 @@ options:
   -h, --help       show this help message and exit
 ```
 
-The `list` option lists the models available via your Ollama installation. These are the LLMs you have downloaded locally on your machine. The `run` option will generate the knowledge base and run the Ollama proxy. For example,
+The `list` option lists the models available via your Ollama installation. These are the LLMs you have downloaded locally on your machine. The `generate` option will generate the knowledge base and run the Ollama proxy. For example,
 ```
 ./knowledgebase.py generate --model gemma3:12b --embedding nomic-embed-text --port 11800 documentdir
 ```
